@@ -1,0 +1,17 @@
+{
+    "name": "libev",
+    "version-semver": "4.33.0",
+    "description": "libev is a high-performance event loop/event model with lots of features.",
+    "homepage": "http://software.schmorp.de/pkg/libev.html",
+    "license": "BSD-3-Clause",
+    "dependencies": [
+        {
+            "name": "vcpkg-cmake",
+            "host": true
+        },
+        {
+            "name": "vcpkg-cmake-config",
+            "host": true
+        }
+    ]
+}
